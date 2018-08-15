@@ -69,6 +69,16 @@
         <source-file src="src/android/UUIDHelper.java"
             target-dir="src/com/megster/cordova/ble/central"/>
 
+        <source-file src="src/android/oudmon-band-api-release.aar" target-dir="app/libs/" />
+        <source-file src="src/android/oudmon-nble-release.aar" target-dir="app/libs/" />
+        <framework src="com.google.code.gson:gson:2.7+" />
+         <framework src="no.nordicsemi.android.support.v18:scanner:1.0.0+" />
+<!-- 
+            compile (name:'oudmon-band-api-release',ext:'aar')
+    compile (name:'oudmon-nble-release',ext:'aar')
+    implementation "com.google.code.gson:gson:2.7"
+    implementation 'no.nordicsemi.android.support.v18:scanner:1.0.0' -->
+
     </platform>
 
     <platform name="browser">

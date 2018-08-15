@@ -77,7 +77,9 @@
         <source-file src="src/android/oudmon-band-api-release.aar" target-dir="app/libs/" />
         <source-file src="src/android/oudmon-nble-release.aar" target-dir="app/libs/" />
         <framework src="com.google.code.gson:gson:2.7+" />
-         <framework src="no.nordicsemi.android.support.v18:scanner:1.0.0+" />
+        <framework src="no.nordicsemi.android.support.v18:scanner:1.0.0" />
+        <framework src="(name:'oudmon-band-api-release',ext:'aar')" />
+        <framework src="(name:'oudmon-nble-release',ext:'aar')" />
 <!-- 
             compile (name:'oudmon-band-api-release',ext:'aar')
     compile (name:'oudmon-nble-release',ext:'aar')
